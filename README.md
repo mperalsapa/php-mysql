@@ -6,7 +6,8 @@ Per crear la base de dades en MySQL hem fet serfir les seguents [sentencies](./s
 # Exemple de access a MySQL amb PHP
 Podem executar el script [dades_contacte_mysql.php](./public/dades_contacte_mysql.php) i ens mostrara l'usuari introduit en la url. Per exemple 
 ```
-localhost/dades_contacte.php?id=1
+localhost/dades_contacte_mysql.php?id=1
 ```
-ens mostrara el seguent exemple.
+ens mostrara la seguent pagina
+
 ![Exemple](img/exemple_dades_contacte_mysql.png)
