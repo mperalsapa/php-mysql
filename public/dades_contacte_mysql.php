@@ -15,6 +15,7 @@ if (isset($_GET['id'])){
     if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
     }
+
     // Formem la consulta
     $sql = "SELECT * FROM persona WHERE id = $user_id";
     // Executem la consulta
