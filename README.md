@@ -11,3 +11,8 @@ localhost/dades_contacte_mysql.php?id=1
 ens mostrara la seguent pagina
 
 ![Exemple](img/exemple_dades_contacte_mysql.png)
+
+# Netejar cache de Memcached
+```
+echo 'flush_all' | nc localhost 11211
+```
