@@ -19,7 +19,7 @@ if (isset($_GET['id'])){
     // Formem la consulta
     $sql = "SELECT * FROM persona WHERE id = $user_id";
     // Temps de vida de la cache
-    $TTL = 20; //Second
+    $ttl = 20; //Second
 
     //Generacio de la clau memcacue (ha de ser unica)
     $cacheKey = md5($sql); 
