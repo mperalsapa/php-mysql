@@ -16,7 +16,7 @@ ens mostrara la seguent pagina
 ```
 echo 'flush_all' | nc localhost 11211
 ```
-# Exemple de access a MySQL amb PHP
+# Exemple de access a MySQL amb PHP a traves de Memcache
 Podem executar el script [dades_contacte_cache.php](./public/dades_contacte_mysql.php) i ens mostrara l'usuari introduit en la url. Per exemple, si s'executa
 ```
 localhost/dades_contacte_cache.php?id=1
