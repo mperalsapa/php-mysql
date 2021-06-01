@@ -22,8 +22,10 @@ Podem executar el script [dades_contacte_cache.php](./public/dades_contacte_mysq
 localhost/dades_contacte_cache.php?id=1
 ```
 per primera vegada, no tindra, cache i mostrara aixo.
+
 ![sense-cache](img/exemple_dades_contacte_cache_NO_CACHED.png)
 
 Si la segona execucio está dintre del periode de vida de la cache (configurada a 20s en el fitxer [php](./public/dades_contacte_cache.php)), es mostrara aquesta altra.
+
 ![sense-cache](img/exemple_dades_contacte_cache_CACHED.png)
 
